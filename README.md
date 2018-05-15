@@ -8,8 +8,7 @@ ReactDOM.render(
         <App />
     </BrowserRouter>, document.getElementById('app'));
 ```
-2. 
-From where you want to declare the routes (body.js in this example)
+2. From where you want to declare the routes (body.js in this example)
 ```
 <Switch>
     <Route exact path='/' component={Home}/>
@@ -17,8 +16,7 @@ From where you want to declare the routes (body.js in this example)
     <Route path='/page2' component={Page2}/>
 </Switch>
 ```
-3. 
-From where you want to navigate to the links (Refer home.js, page1.js, page2.js in this example)
+3. From where you want to navigate to the links (Refer home.js, page1.js, page2.js in this example)
 ```
 import { Link } from 'react-router-dom'
 .
