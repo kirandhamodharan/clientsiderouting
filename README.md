@@ -1,4 +1,4 @@
-# Template for React application with client side navigation.
+# Template for React application with client side navigation
 
 ## Code
 1. In the index.js
